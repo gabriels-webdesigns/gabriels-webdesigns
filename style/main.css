@@ -1,46 +1,13 @@
 @font-face {
-    font-family: 'Chivo Regular';
-    src: url('../assets/fonts/chivo/Chivo-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'Chivo Bold';
-    src: url('../assets/fonts/chivo/Chivo-Bold.ttf');
-}
-
-@font-face {
-    font-family: 'Chivo SemiBold';
-    src: url('../assets/fonts/chivo/Chivo-SemiBold.ttf');
-}
-
-@font-face {
-    font-family: 'WorkSans Medium';
-    src: url('../assets/fonts/worksans/WorkSans-Medium.ttf');
-}
-
-@font-face {
-    font-family: 'WorkSans Regular';
-    src: url('../assets/fonts/worksans/WorkSans-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'WorkSans SemiBold';
-    src: url('../assets/fonts/worksans/WorkSans-SemiBold.ttf');
-}
-
-@font-face {
     font-family: 'Poppins Regular';
     src: url('../assets/fonts/poppins/Poppins-Medium.ttf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Poppins Bold';
     src: url('../assets/fonts/poppins/Poppins-Bold.ttf');
-}
-
-@font-face {
-    font-family: 'Poppins SemiBold';
-    src: url('../assets/fonts/poppins/Poppins-SemiBold.ttf');
+    font-display: swap;
 }
 
 header {
@@ -73,10 +40,6 @@ body {
 
 .slim-padding {
     padding: 0 15vw;
-}
-
-footer {
-
 }
 
 h1 {
@@ -188,7 +151,7 @@ span {
 }
 
 .image-grid-item img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -289,7 +252,7 @@ span {
 }
 
 /* Media Query für kleinere Bildschirme */
-@media only screen and (max-width: 700px)  and (min-height: 600px) {
+@media only screen and (max-width: 700px) and (min-height: 600px) {
     .image-modal .modal-img {
         width: 100%;
     }
@@ -352,6 +315,3 @@ span {
         transition: none;
     }
 }
-
-
-
